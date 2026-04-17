@@ -5,8 +5,11 @@ body {
 	background :url("../images/bg-body.jpg");
 	line-height :25px;
 }
-a {
-	outline :0;
+a:focus-visible,
+input:focus-visible,
+button:focus-visible {
+	outline: 4px solid #000;
+	outline-offset: 3px;
 }
 img {
 	border :0;
@@ -72,23 +75,30 @@ header div ul.navigation {
 	position :absolute;
 	left :0px;
 	top :160px;
-	overflow :hidden;
+	overflow :visible;
 	width :620px;
+	display: flex;
+	gap: 20px;
 }
 header div ul.navigation li {
-	float :left;
+	float :none;
 }
 header div ul.navigation li:first-child a {
 	padding-left :0;
 }
 header div ul.navigation li a {
 	text-decoration :none;
-	padding :0 30px;
+	padding :10px 20px;
 	color :#ebe9d7;
 	font-family :'Lobster1.4Regular';
-	font-size :16px;
-	color :#94c4c7;
 	font-size :21px;
+
+	display: inline-block;
+	border: none;
+}
+header div ul.navigation li a:focus-visible {
+	outline: 3px solid #000;
+	outline-offset: 2px;
 }
 header div ul.navigation li a:hover {
 	color :#ebe9d7;
