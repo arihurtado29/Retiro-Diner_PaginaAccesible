@@ -404,7 +404,8 @@ header div ul.navigation li a.active {
 	text-align :center;
 	padding-top :30px;
 }
-#body .sidebar h1 {
+#body .sidebar h1,
+#body .sidebar h2 {
 	color :#1b6568;
 	font-family :'Lobster1.4Regular';
 	font-size :36px;
