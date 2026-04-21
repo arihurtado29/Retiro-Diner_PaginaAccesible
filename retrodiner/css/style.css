@@ -324,7 +324,7 @@ header div ul.navigation li a.active {
 #body .content div div p a:hover {
 	color :#80210b;
 }
-#body .content div div h1 {
+#body .content div div h1{
 	font-family :'Lobster1.4Regular';
 	font-size :36px;
 	color :#1b6568;
@@ -662,7 +662,8 @@ footer div ul li.last {
 	padding-left :75px;
 	width :250px;
 }
-footer div ul li h2 {
+footer div ul li h2,
+footer div ul li h2 a {
 	color :#ebe9d7;
 	font-family :'Lobster1.4Regular';
 	font-weight :normal;
@@ -725,7 +726,8 @@ footer div ul li ul li a.googleplus {
 footer div ul li ul li a.googleplus:hover {
 	background :transparent url("../images/icon.png") no-repeat 0 -317px;
 }
-footer div ul li input[type="submit"] {
+footer div ul li input[type="submit"],
+footer div ul li button {
 	background :transparent url("../images/button.png") no-repeat 0 -278px;
 	width :215px;
 	height :36px;
